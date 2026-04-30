@@ -1,0 +1,23 @@
+# Large data - never push
+data/
+checkpoints/
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Model weights
+*.pth
+*.pt
+*.h5
+
+# Environment
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
