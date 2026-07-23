@@ -57,6 +57,8 @@ nvidia-smi
 
 ### Commands
 #
-python SAM.py
+cd /home/BeeGFS/ExtLabs/LEME/marabkoohichetabi/Computations/CFRP-microstructure-segmentation
+python sam_segmentation/src/SAM.py
+
 
 ### EOF
