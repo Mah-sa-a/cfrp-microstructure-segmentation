@@ -26,8 +26,9 @@
 #SBATCH --job-name=SAM
 #SBATCH --partition=GPU_Compute
 #SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
 #SBATCH --gres=gpu:1
-#SBATCH --mem=32G
+#SBATCH --mem=16G
 #
 ## Optional batch arguments (uncomment if used)
 ##SBATCH --time=100:00:00
@@ -58,7 +59,7 @@ nvidia-smi
 ### Commands
 #
 cd /home/BeeGFS/ExtLabs/LEME/marabkoohichetabi/Computations/CFRP-microstructure-segmentation
-python sam_segmentation/src/SAM.py
 
+python sam_segmentation/src/SAM_training.py
 
 ### EOF

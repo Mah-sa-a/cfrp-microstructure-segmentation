@@ -1,0 +1,15 @@
+{
+  "sam_output_root": "outputs/sam_l40s_parallel_799154",
+  "included_samples": [
+    "1",
+    "R1_1",
+    "R2",
+    "R3_1a",
+    "R3_1b"
+  ],
+  "sample_metadata": "data/metadata/sample_groups.csv",
+  "reject_folder_names": [
+    "reject",
+    "rejected"
+  ]
+}

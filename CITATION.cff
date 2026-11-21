@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the archived software release when using this code. Release metadata will be added when available."
+type: software
+title: "CFRP Microstructure Segmentation"
+authors:
+  - family-names: "Arabkoohichetabi"
+    given-names: "Mahsa"
+    affiliation: "Université Paris Nanterre (LEME)"
+repository-code: "https://github.com/Mah-sa-a/CFRP-microstructure-segmentation"
+abstract: >-
+  Research software for synthetic microstructure generation,
+  SAM-assisted experimental annotation, and comparison of
+  synthetic-only, experimental-only, and synthetic-pretrained
+  U-Net training strategies for three-phase CFRP segmentation.
+keywords:
+  - CFRP
+  - microstructure
+  - semantic segmentation
+  - synthetic-to-real
+  - U-Net
+  - SAM

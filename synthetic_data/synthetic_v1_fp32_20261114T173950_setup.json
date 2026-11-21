@@ -1,0 +1,11 @@
+{
+  "config": "unet/configs/synthetic_v1_fp32_20261114T173950.json",
+  "run_name": "study_synthetic_v1_fp32_20261114T173950",
+  "synthetic_dataset": "/home/BeeGFS/ExtLabs/LEME/marabkoohichetabi/Computations/CFRP-microstructure-segmentation/data/synthetic/synthetic_v1_20261113T180416",
+  "synthetic_splits": "data/splits/synthetic_v1_fp32_20261114T173950",
+  "patch_counts": {
+    "train": 16800,
+    "validation": 3600,
+    "test": 3600
+  }
+}

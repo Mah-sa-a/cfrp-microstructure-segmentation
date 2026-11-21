@@ -21,3 +21,24 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+# Paper-release local exclusions
+/.envs/
+/.venv/
+/.local_backups/
+/logs/
+/np
+/pd
+
+# Credentials and local environment variables
+.env
+.env.*
+!.env.example
+
+# HPC output and temporary files
+*.out
+*.err
+*.log
+*.tmp
+*.bak
+*~
+*.ckpt

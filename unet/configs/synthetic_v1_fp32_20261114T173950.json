@@ -1,0 +1,22 @@
+{
+  "real_splits": "data/splits/reviewed_multimag_mixedclass_fp32_20261111T182044Z_e01af2",
+  "synthetic_splits": "data/splits/synthetic_v1_fp32_20261114T173950",
+  "run_name": "study_synthetic_v1_fp32_20261114T173950",
+  "allow_unreviewed": false,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 150,
+  "patience": 20,
+  "batch_size": 4,
+  "workers": 2,
+  "base_channels": 32,
+  "lr": 0.001,
+  "finetune_lr": 0.0001,
+  "weight_decay": 0.0001,
+  "boundary_tolerance_px": 2,
+  "save_all_predictions": true,
+  "precision": "float32"
+}

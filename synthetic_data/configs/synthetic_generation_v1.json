@@ -1,0 +1,47 @@
+{
+  "seed": 20261113,
+  "parents": 6000,
+  "parent_size": 1024,
+  "padding": 64,
+  "scales": [
+    {
+      "name": "small_feature_scale",
+      "mean_diameter_px": [
+        9,
+        16
+      ]
+    },
+    {
+      "name": "large_feature_scale",
+      "mean_diameter_px": [
+        19,
+        30
+      ]
+    }
+  ],
+  "void_free_probability": 0.15,
+  "void_fraction_range": [
+    0.01,
+    0.3
+  ],
+  "void_diameter_in_fiber_units": [
+    2,
+    16
+  ],
+  "void_fraction_tolerance": 0.025,
+  "max_void_attempts": 600,
+  "fiber_attempts_per_parent": 200000,
+  "fiber_mean_range": [
+    170,
+    225
+  ],
+  "matrix_mean_range": [
+    65,
+    125
+  ],
+  "void_mean_range": [
+    3,
+    28
+  ],
+  "qc_parents": 24
+}
