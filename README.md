@@ -103,3 +103,9 @@ is finalized.
 
 Mahsa Arabkoohichetabi
 Université Paris Nanterre (LEME)
+
+## License
+
+Original code in this repository is released under the MIT License.
+See `LICENSE` for the full terms. Third-party software and model
+checkpoints remain subject to their respective licenses.
