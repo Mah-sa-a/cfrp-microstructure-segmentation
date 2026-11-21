@@ -6,7 +6,7 @@ authors:
   - family-names: "Arabkoohichetabi"
     given-names: "Mahsa"
     affiliation: "Université Paris Nanterre (LEME)"
-repository-code: "https://github.com/Mah-sa-a/CFRP-microstructure-segmentation"
+repository-code: "https://github.com/Mah-sa-a/cfrp-microstructure-segmentation"
 abstract: >-
   Research software for synthetic microstructure generation,
   SAM-assisted experimental annotation, and comparison of
