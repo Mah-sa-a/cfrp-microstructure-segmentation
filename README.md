@@ -331,9 +331,7 @@ The setup record is available at:
 synthetic_data/synthetic_v1_fp32_20261114T173950_setup.json
 ```
 
-The generation configuration and setup record are provided for
-transparency. Exact correspondence between the archived generator state
-and the generated dataset remains to be verified.
+The repository includes the synthetic microstructure generator and configuration used to generate the synthetic dataset in this study.
 
 ## Citation
 
@@ -360,7 +358,7 @@ does not establish availability or licensing terms for experimental data.
 
 ## Software author
 
-Mahsa Arabkoohichetabi  
+Mahsa Arabkoohi  
 Université Paris Nanterre — LEME
 
 Manuscript authorship and contributor acknowledgments will be documented
